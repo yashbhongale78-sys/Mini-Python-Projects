@@ -17,9 +17,10 @@ for question in questions:
     print("d",question[4])
     a= int(input("enter 1 for a, 2 for b , 3 for c, 4 for d"))
 
+    count = 0
     if question[5] == a:
         print("Correct answer")
+        count = count + 1
     else:
         print("Wrong answer")
         break
-    
